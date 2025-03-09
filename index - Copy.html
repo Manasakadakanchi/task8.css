@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        header{
+            height: 10vh;
+            display: flex;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+            background-color: white;
+            font-size: 30px;
+            margin-top: 20px;
+        }
+        .container{
+            display: grid;
+            gap: 20px;
+            grid-template-columns: auto auto auto auto;
+            width: 100%;
+
+        }
+        .about{
+            /* justify-content: center; */
+            margin: auto;
+            /* align-content: center; */
+            width: 50%;
+            text-align: center;
+
+        }
+        .container img{
+            width: 20vw;
+            /* height: 80%; */
+
+        }
+        .child{
+            width: 80% ;
+            text-align: justify;
+        }
+        .num span{
+            padding: 10px;
+            /* text-align: center; */
+        }
+        .num{
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        .num span:hover{
+            background-color: black;
+            color: azure;
+        }
+        .footer{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: space-around;
+        }
+
+        .blog{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        .popular span{
+            background-color:lightgray;
+            
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <i class="fa-solid fa-bars"></i>
+        <span>My Food</span>
+        <span>Mail</span>
+    </header>
+    <div class="container">
+
+        <div class="child">
+            <img src="./images (7).jpg">
+            <p>Just some random text, lorem ipsum text praesent tincidunt  lipsum.</p>
+        </div>
+
+        <div class="child">
+            <img  src="./images.jpg"
+            <h3>Let Me Tell You About This Steak</h3>
+            <p>Once again, some random text to  ipsum text praesent tincidunt  lipsum.</p>
+        </div>
+
+        <div class="child">
+            <img src="./images (6).jpg"
+            <h3>Cherries, interrupted</h3>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.
+
+                What else?</p>
+        </div>
+
+        <div class="child">
+            <img src="./images (5).jpg"
+            <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+            <p> lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+
+        <!-- 2nd row -->
+
+        <div class="child">
+            <img src="./images (4).jpg">
+            <h3>All I Need Is a Popsicle</h3>
+            <p> lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+
+        <div class="child">
+            <img src="./images (1).jpg">
+         <h3>Salmon For Your Skin</h3>
+            <p> lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+
+        <div class="child">
+            <img src="./images (2).jpg">
+            <h3>The Perfect Sandwich, A Real Classic</h3>
+            <p> lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+
+        <div class="child">
+            <img src="./images (3).jpg">
+            <h3>Le French</h3>
+            <p> lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+    </div>
+
+    <div class="num">
+        <span>>></span>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>>></span>
+    </div>
+
+    <hr>
+
+        
+
+        <div class="about">
+            <h1>About Me,The Food Man</h1>
+            <img src="https://www.w3schools.com/w3images/chef.jpg">
+            <h1>I am Who I Am!</h1>
+            <p><i>With Passion For Real, Good Food</i></p>
+            <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+
+
+        </div>
+        
+        <div class="footer">
+            <div class="foot">
+                <h1>Footer</h1>
+                <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+
+                    Powered by w3.css</p>
+            </div>
+
+            <div>
+                
+                <h1>Blog Posts</h1>
+                <div class="blog">
+                <img src="https://www.w3schools.com/w3images/workshop.jpg" width="80%" height="70%">
+                <div><p>Lorem
+                    Sed mattis nunc</p>
+                </div>
+                </div>
+                    <hr>
+                    <div class="blog">
+                <img src="https://www.w3schools.com/w3images/gondol.jpg" width="80%" height="70%">
+                <p>Ipsum
+                    Praes tinci sed</p>    
+            </div>
+            </div>
+
+            <div class="popular">
+                <h1>Popular Tags </h1>
+                <span>travel</span>
+                <span>New York</span>
+                <span>Dinner</span>
+                <span>Salmon</span>
+                <span>France</span>
+                <span>Drinks</span>
+                <span>Ideas</span>
+                <span>Flavor</span>
+                <span>Cuisine</span>
+                <span>Chicken</span>
+                <span>Dressing</span>
+                <span>Fried</span>
+                <span>Fish</span>
+                <span>Duck</span>
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+    
+</body>
+</html>
